@@ -1,0 +1,4 @@
+name: app-prod
+replicaCount: 2
+image: "tienphuoc/javaapp:857cfb5"
+host: "app-prod.tienphuoc.local"
