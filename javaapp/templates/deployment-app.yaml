@@ -17,7 +17,7 @@ spec:
       containers:
       - name: appjava
       {{- if .Values.image}}
-        image: {{.Values.image}}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
       {{- else}}
         image: tienphuoc/javaapp:857cfb5
       {{- end}}
