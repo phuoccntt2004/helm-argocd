@@ -2,5 +2,5 @@ name: app-prod
 replicaCount: 2
 image:
   repository: tienphuoc/javaappdemo
-  tag: ""
+  tag: "466896f"
 host: "app-prod.tienphuoc.local"
