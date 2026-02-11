@@ -17,9 +17,9 @@ spec:
       containers:
       - name: appjava
       {{- if .Values.image}}
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-      {{- else}}
         image: tienphuoc/javaapp:857cfb5
+      {{- else}}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
       {{- end}}
         ports:
         - containerPort: 8080
