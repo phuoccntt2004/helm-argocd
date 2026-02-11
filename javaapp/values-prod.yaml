@@ -1,4 +1,6 @@
 name: app-prod
 replicaCount: 2
-image: "tienphuoc/javaapp:857cfb5"
+image:
+  repository: tienphuoc/javaappdemo
+  tag: latest
 host: "app-prod.tienphuoc.local"
