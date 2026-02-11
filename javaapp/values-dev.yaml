@@ -1,4 +1,6 @@
 name: app-dev
 replicaCount: 1
-image: "tienphuoc/javaapp:857cfb5"
+image:
+  repository: tienphuoc/javaappdemo
+  tag: latest
 host: "app-dev.tienphuoc.local"
